@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "my-mcp-server-ad12adc5": {
+            "type": "stdio",
+            "command": "/workspaces/crimson-river-8122/target/release/crimson-river-8122",
+            "args": []
+        }
+    }
+}

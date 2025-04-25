@@ -1,0 +1,11 @@
+[package]
+name = "crimson-river-8122"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+poem-mcpserver = "0.2.1"
+serde = { version = "1.0", features = ["derive"] }
+schemars = "0.8.22"
+tokio = { version = "1.44.1", features = ["macros", "rt-multi-thread", "sync"] }
+haikunator = "0.1.2"
